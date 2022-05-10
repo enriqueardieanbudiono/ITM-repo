@@ -10,7 +10,7 @@ global.emails;
 global.name;
 // Google Auth
 const {OAuth2Client} = require('google-auth-library');
-const CLIENT_ID = '70929119722-q421bkdo1ii9bsnk3f597u13tr67dp6v.apps.googleusercontent.com'
+const CLIENT_ID = ''
 const client = new OAuth2Client(CLIENT_ID);
 
 const PORT = process.env.PORT || 7000;
@@ -25,10 +25,10 @@ app.use('/static', express.static('public'));
 // Database Connection
 const mysql = require('mysql');
 const connection = mysql.createConnection({
-    host    : 'team-09-db-vm0.service.consul',
-    user    : 'itmt430',
-    password: 'team09w',
-    database: 'itmt430'
+    host    : '',
+    user    : '',
+    password: '',
+    database: ''
 });
 
 app.get('/', (req, res) => {
