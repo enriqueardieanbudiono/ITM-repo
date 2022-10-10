@@ -24,3 +24,8 @@ id_rsa.pub
 .Vagrantfile*
 Vagrantfile~
 config.default.yml
+
+# Node.js
+node_modules/
+
+arguments.txt
